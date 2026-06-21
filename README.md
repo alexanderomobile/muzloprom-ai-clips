@@ -1,8 +1,24 @@
+🇷🇺 [Русский](README.md) · 🇬🇧 [English](README.en.md) · 🇪🇸 [Español](README.es.md)
+
 # MuzloProm AI Clips
 
-**Telegram-бот: музыкальные клипы из фото** (OpenAI + Qwen WAN + субтитры).
+**AI-клипы из фото под музыку**
 
-> Showcase без кода.
+> Showcase без кода. Исходники — приватный репозиторий.
+
+---
+
+## Задача
+
+AI-клипы из фото под музыку.
+
+## Функционал
+
+Фото + фрагмент MP3 → сцена OpenAI → video Qwen WAN → субтитры → Telegram.
+
+## Польза для бизнеса
+
+Масштабирует контент-маркeting без монтажёра; быстрый UGC для соцсетей.
 
 ## Стек
 
@@ -18,6 +34,8 @@ FastAPI · aiogram · MySQL · OpenAI · Qwen WAN · ffmpeg
 uvicorn app.main:app --host 0.0.0.0 --port 8100
 ```
 
-**Case Study:** [portfolio](https://github.com/alexanderomobile/portfolio/blob/main/case-studies/05-muzloprom-ai-clips.md)
+**Статус:** ✅ Завершён
+
+**Case Study:** [05-muzloprom-ai-clips.md](https://github.com/alexanderomobile/portfolio/blob/main/case-studies/ru/05-muzloprom-ai-clips.md)
 
 [@alexanderomobile](https://github.com/alexanderomobile)
